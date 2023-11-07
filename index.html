@@ -189,20 +189,33 @@ http://www.templatemo.com/tm-487-fitness
 			</div>
 			</div>
 		</div>
-		<div>
-		<ul class="slider">
-			<li>
-				  <input type="radio" id="slide1" name="slide" checked>
-				  <label for="slide1"><P><<</P></label>
-				  <img src="images/depoimento1.png" />
-			</li>
-			<li>
-				  <input type="radio" id="slide2" name="slide">
-				  <label for="slide2"><P>>></P></label>
-				  <img src="images/depoimento2.png" />
-			</li>
-		</ul>
+		<script>
+			// When the user clicks on <div>, open the popup
+			function myFunction() {
+			  	var popup = document.getElementById("myPopup");
+			  popup.classList.toggle("show");
+			  var popup = document.getElementById("myPopup1");
+			  popup.classList.toggle("show");
+			}
+			</script>
+		<h2 class="titulodep">Depoimentos</h2>
+		<div class="cards">
+		<div class="card">
+			<img src="images/depoimento1.jpg" class="user">
+			<h4 class="nomedep">Daniel Sá</h4>
+			<h5>16 anos</h5>
+			<p class="corpo">"Na pandemia, acho que todo mundo se sentiu um pouco solitário. Eu ficava o dia inteiro em casa e o Cazé era como um amigo que eu tinha em todas as lives”</p>
 		</div>
+		<div class="card">
+			<img src="images/depoimento2.jpg" class="user">
+			<h4 class="nomedep">Felipe Falcão</h4>
+			<h5>28 anos</h5>
+			<p class="corpo">“Eu via nele um amigo, alguém que falava a mesma língua que eu falava com meus amigos”</p>
+			
+		</div>
+		
+		</div>
+
 		<div class="container">
 			<div class="row">
 		<div>
