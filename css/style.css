@@ -50,6 +50,7 @@ blockquote, h3 {
 
 h3 {
   line-height: 40px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 #overview h3{
@@ -67,10 +68,11 @@ p {
     color: #ffffff;
     font-size: 20px;
     line-height: 25px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.6px;
     text-align: left;
     padding-right: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a {
@@ -309,14 +311,17 @@ audio::-webkit-media-controls-current-time-display {
 }
 .cards{
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 1400px;
-  margin: 0 auto;
-  grid-gap: 80px;
+  display: flex;
+  max-width: 750px;
+  margin: auto;
+  grid-gap: 50px;
 }
 .corpo{
+  padding-top: 16px;
+  padding-bottom: 20px;
   text-align: center;
+  color: #000;
+  
 }
 .titulodep{
   display: flex;
@@ -332,11 +337,11 @@ h5{
   font-size: 30px;
 }
 .card{
-  background-color: #4BBD54;
+  background-color: #eef1ef;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 35px 40px;
+  padding: 35px 30px;
   box-shadow: 6px 6px 10px #050505;
   border-radius: 15%;
 }
@@ -347,11 +352,34 @@ h5{
   margin-bottom: -15px;
   
 }
+.leia{
+  align-items: center;
+  padding: 0.5rem 8rem;
+  text-transform: uppercase;
+  border-radius: 35px;
+  border: 1;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #4BBD54;
+}
+.boxverde{
+  background-color: #38A45B;
+  border-radius: 8px;
+  margin-left: -15px;
+}
+.textoverde{
+  margin-left: 15px;
 
-
+}
+.img-responsive{
+  border-radius: 50%;
+  width: 20%;
+}
 #home h3 {
   letter-spacing: 2px;
 }
+
 
 hr{
   
@@ -481,7 +509,7 @@ hr{
     height: 65vh;
   }
 
-  #overview {text-align: center;}
+  #overview {text-align: left;}
 
   #overview blockquote {
     top: 260px;
@@ -513,8 +541,11 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display: block;
-   
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    max-width: 400px;
   }
   #sergio4{
     padding: 25px;
@@ -550,8 +581,11 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display: block;
-   
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    max-width: 400px;
   }
   #sergio4{
     padding: 25px;
@@ -602,8 +636,11 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display: block;
-   
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    max-width: 400px;
   }
   #sergio4{
     padding: 25px;
@@ -646,7 +683,13 @@ hr{
 
   p {font-size: 17px;}
 
- 
+  .cards{
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    max-width: 400px;
+  }
 
   #overview .overview-detail {
     margin-top: 100px;
@@ -677,7 +720,9 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display: block;
+    display: grid;
+    grid-gap: 5rem;
+  
    
   }
   #sergio4{
@@ -714,7 +759,8 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display: block;
+    display: grid;
+    grid-gap: 5rem;
    
   }
   #sergio4{
@@ -756,8 +802,10 @@ hr{
     margin-right: 20px;
   }
   .cards{
-    display:inline-block;
-  
+    display: grid;
+    grid-gap: 5rem;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   #sergio4{
     padding: 25px;
