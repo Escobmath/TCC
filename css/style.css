@@ -1,7 +1,7 @@
 
 body {
     background: #070626;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 500;
 }
@@ -72,7 +72,7 @@ p {
     letter-spacing: 0.6px;
     text-align: left;
     margin-right: 35px;
-    padding: 25px 25px 0px 25px;
+    padding: 15px 25px 0px 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -413,7 +413,7 @@ h5{
 }
 .textoverde{
   margin-left: 15px;
-
+  padding-bottom: 10px;
 }
 .img-responsive{
   border-radius: 50%;
@@ -423,6 +423,9 @@ h5{
   letter-spacing: 2px;
 }
 
+.pergunta{
+  color: #38A45B;
+}
 
 hr{
   
