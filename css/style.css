@@ -35,7 +35,9 @@ h2 {
   text-transform: uppercase;
   color: white;
 }
-
+.subt{
+  color: #38A45B;
+}
 #trainer h2,
 #newsletter h2,
 #blog h2,
