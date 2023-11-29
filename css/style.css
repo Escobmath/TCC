@@ -1103,6 +1103,76 @@ footer .copyright-text {
   }
 }
 
+@media (max-width: 550px) {
+  h1{
+    margin: 4px;
+  }
+  h2{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #overview blockquote {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  #logo{
+    width: 150px;
+    margin-left: 15px;
+  }
+  #sergio{
+    
+    align-items: center;
+    
+  }
+  .responsive-video{
+    width: 350px;
+    height: 230px;  
+  }
+  .player{
+    margin-right: 45px;
+    margin-left: 14px;
+  }
+  .cards{
+    display: grid;
+    grid-gap: 5rem;
+   
+  }
+  .sergio4{
+    padding-right: 80px;
+    width: 500px;
+  }
+  #sergio1{
+    padding-right: 50px;
+    width: 480px;
+  }
+  #sergio2{
+    padding-right: 160px;
+    width: 600px;
+  }
+  #blog h4{
+    padding-right: 20px;
+    padding-left: 20px
+  }
+  #blog h3{
+    padding-right: 30px;
+    padding-left: 20px
+  }
+  .recent-post{
+    margin-top: 0px;
+  }
+  .img-responsive{
+    border-radius: 50%;
+    width: 40%;
+  }
+  .img-responsive1{
+    margin: 20px 30px 10px;
+    width: 380px
+}
+.social-icon{
+  margin-left: 20%;
+}
+}
 
 @media (max-width: 450px) {
   h1{
