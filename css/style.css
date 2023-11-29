@@ -57,7 +57,7 @@ h3 {
 #overview h3{
   color: #6FDC3D;
   font-size: 500;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 25px;
 
 }
@@ -700,7 +700,7 @@ hr{
   height: 50vh;
 }
 footer {
-  background:#4BBD54;
+  background:#6FDC3D;
   color:#fff;
   padding-top: 8rem;
   padding-bottom: 4rem;
